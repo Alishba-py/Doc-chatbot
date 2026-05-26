@@ -1,0 +1,44 @@
+# ============================================
+# RAG Chatbot - Correct Requirements
+# Galat packages hata diye, sahi wale add kiye
+# ============================================
+
+# Web Framework
+fastapi==0.115.0
+uvicorn==0.30.0
+
+# File Upload support (zaroor chahiye FastAPI ke liye)
+python-multipart==0.0.12
+
+# Embeddings Model
+sentence-transformers==3.0.0
+
+# Vector Search
+faiss-cpu==1.8.0
+
+# PDF reading
+pypdf==5.0.0
+
+# DOCX reading — pehle missing tha, extract_docx crash karta tha
+python-docx==1.1.0
+
+# CSV aur Excel reading
+pandas==2.1.0
+openpyxl==3.1.2
+
+# Groq LLM API
+groq==0.11.0
+
+# Environment variables (.env file)
+python-dotenv==1.0.0
+
+# numpy (faiss ke saath kaam karta hai)
+numpy==1.26.4
+
+# ============================================
+# REMOVED (yeh code mein use nahi ho rahe the):
+# langchain==0.3.0
+# langchain-community==0.3.0
+# langchain-groq==0.2.0
+# ollama==0.4.0
+# ============================================
